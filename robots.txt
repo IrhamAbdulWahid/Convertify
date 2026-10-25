@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /actions/
+Disallow: /config/

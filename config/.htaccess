@@ -1,0 +1,2 @@
+# Mencegah akses langsung ke semua file di folder config/
+Require all denied

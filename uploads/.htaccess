@@ -1,0 +1,5 @@
+# Mencegah eksekusi script apapun di folder uploads (hanya file statis)
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|pl|py|cgi|asp|sh|exe)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
